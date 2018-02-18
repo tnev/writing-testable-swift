@@ -120,10 +120,10 @@ The responsibilities and requirements (dependencies) of an object become much mo
 We want our objects to only know what they absolutely need to know in order to function. Did our robot need to know how to create its parts in order to function? As we saw using dependency injection, no it did not. Even though our robot uses its parts, it’s not _responsible_ for creating those parts.
 
 ## Loose Coupling
-When pieces of our software are **coupled**, they depend on another component’s _implementation_ in order to function. This kills reusability and increases the time it takes us to iterate on the coupled parts of our software. When we combine dependency injection with the use of Swift’s protocols, which we’ll see later in this series, we can achieve reduced coupling between our components. By having our objects depend on the interfaces of other components, not their implementations, we will be able to make code changes much faster when architecture or requirements change.
+When pieces of our software are **coupled**, they depend on eachother in order to function. Tight coupling kills reusability and maintainability. When we combine dependency injection with the use of Swift’s protocols, which we’ll see later in this series, we can achieve reduced coupling between our components. By having our objects depend on the interfaces of other components, not their implementations, we will be able to make code changes much faster when architecture or requirements change.
 
 ## Testability
-This is arguably the **most important** reason to use dependency injection when writing software. The ability to test you code is _directly related_ to how your components get their dependencies. As we’ll soon see, if your objects are creating their own dependencies it can be extremely difficult to control their behavior, which means it can be extremely difficult or impossible to test their behavior.
+This is arguably the **most important** reason to use dependency injection when writing software. The ability to test your code is _directly related_ to how your components get their dependencies. As we’ll soon see, if your objects are creating their own dependencies it can be extremely difficult to control their behavior, which means it can be extremely difficult or impossible to test their behavior.
 
 - - - -
 **Think about this:**

@@ -4,12 +4,10 @@ Let’s say we work at a robot factory. Our boss asks us to create a class for a
 ``` swift
 
 class Robot {
-	let wire: Wire = Wire(color: .red)
-	let antenna: Antenna = Antenna(length: 3)
-	let powerSupply: PowerSupply = PowerSupply(watts: 300)
+    let wire: Wire = Wire(color: .red)
+    let antenna: Antenna = Antenna(length: 3)
+    let powerSupply: PowerSupply = PowerSupply(watts: 300)
 }
-
-let robot = Robot()
 
 ```
 
@@ -25,18 +23,16 @@ Dang. So back to the drawing board. How can we dynamically create this robot’s
 
 class Robot {
 
-	let wire: Wire
-	let antenna: Antenna
-	let powerSupply: PowerSupply
+    let wire: Wire
+    let antenna: Antenna
+    let powerSupply: PowerSupply
 
-	init(wireColor: UIColor, antennaLength: Double, powerSupplyWattage: Int) {
-		self.wire = Wire(color: wireColor)
-		self.antenna = Antenna(length: antennaLength)
-		self.powerSupply = PowerSupply(watts: powerSupplyWattage)
-	}
+    init(wireColor: UIColor, antennaLength: Double, powerSupplyWattage: Int) {
+        self.wire = Wire(color: wireColor)
+	self.antenna = Antenna(length: antennaLength)
+	self.powerSupply = PowerSupply(watts: powerSupplyWattage)
+    }
 }
-
-let robot = Robot(wireColor: .red, antennaLength: 3, powerSupplyWattage: 300)
 
 ```
 
@@ -59,21 +55,16 @@ That’s it! We run back to our computer and quickly come up with a solution usi
 
 class Robot {
 
-	let wire: Wire
-	let antenna: Antenna
-	let powerSupply: PowerSupply
+    let wire: Wire
+    let antenna: Antenna
+    let powerSupply: PowerSupply
 
-	init(wire: Wire, antenna: Antenna, powerSupply: PowerSupply) {
-		self.wire = wire
-		self.antenna = antenna
-		self.powerSupply = powerSupply
-	}
+    init(wire: Wire, antenna: Antenna, powerSupply: PowerSupply) {
+	self.wire = wire
+	self.antenna = antenna
+	self.powerSupply = powerSupply
+    }
 }
-
-let wire = Wire(color: .red)
-let antenna = Antenna(length: 3)
-let powerSupply = PowerSupply(watts: 300)
-let robot = Robot(wire: wire, antenna: antenna, powerSupply: powerSupply)
 
 ```
 

@@ -131,6 +131,3 @@ This is arguably the **most important** reason to use dependency injection when 
 How would the conversations with our boss have gone had we implemented dependency injection in the first place?
 
 These conversations aren’t completely fictional - the requirements and constraints of our projects are constantly changing and evolving. It’s our job to make sure that change is not a cause for panic. Using dependency injection is the first step towards being _certain_ and _confident_ in the changes we make to our code.
-
-
-#ios/guides/writing-testable-swift

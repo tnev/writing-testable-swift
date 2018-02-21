@@ -14,4 +14,4 @@ If you find this course helpful then I encourage you to use this content and tea
 
 If you think this course could be improved, corrected or added to, please file an issue or make a PR.
 
-If you think that there's other ways to write testable Swift code, then you're right. There's lots of ways to accomplish testable Swift code. I like using the techniques in this course, but I appreciate all the teachers and library creators that have contributed to a community of testable Swift code.
+If you think that there's other ways to write testable Swift code, then you're right. I like using the techniques in this course, but I appreciate all the teachers and library creators that have contributed to a community of testable Swift code.

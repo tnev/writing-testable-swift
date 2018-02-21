@@ -76,7 +76,7 @@ protocol Arms {
 }
 
 protocol Legs {
-	func run()
+	func walk()
 }
 
 ```

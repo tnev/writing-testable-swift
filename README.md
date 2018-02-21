@@ -1,6 +1,8 @@
 # Writing Testable Swift
 
-As software developers, we're making a lot of decisions every day. We're fixing bugs, building new features, and architecting new systems. We have so many choices to make, and sometimes we're not sure if we're making the right one. We tend to doubt ourselves and our decisions. Even after we’ve committed our code, and it's in production, we’re not totally sure how it will handle the innumerable use cases it could encounter.
+As software developers, we're making a lot of decisions every day. We're fixing bugs, building new features, and architecting new systems. We have so many choices to make, and sometimes we're not sure if we're making the right one.
+
+We tend to doubt ourselves and our decisions. Even after we’ve committed our code, and it's in production, we’re not totally sure how it will handle the innumerable use cases it could encounter.
 
 So, what if we didn’t need to harbor this anxiety and instead we could feel **confident** in our solutions? What if we could be **empowered** by having a high degree of certainty that our code will work as intended? That is the goal of Writing Testable Swift.
 
